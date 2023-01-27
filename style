@@ -1,0 +1,15 @@
+#textArea::after {
+  content: "|";
+  font-weight: 700;
+  vertical-align: top;
+  animation: line 800ms linear infinite both;
+}
+
+@keyframes line {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
